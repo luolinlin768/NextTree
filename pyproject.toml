@@ -1,0 +1,15 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.116.1",
+    "passlib>=1.7.4",
+    "pydantic>=2.11.7",
+    "python-jose>=3.5.0",
+    "python-multipart>=0.0.20",
+    "sqlalchemy>=2.0.42",
+    "uvicorn>=0.35.0",
+]
